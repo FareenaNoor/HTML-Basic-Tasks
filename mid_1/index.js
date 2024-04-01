@@ -121,7 +121,7 @@ function renderCart() {
     itemName.textContent = cartItem.product.name;
 
     const itemPrice = document.createElement("span");
-    itemPrice.textContent = " $" + (cartItem.product.price * cartItem.quantity).toFixed(2);
+    itemPrice.textContent = " $  " + (cartItem.product.price * cartItem.quantity).toFixed(2);
 
     const quantityControl = document.createElement("div");
     quantityControl.classList.add("quantity-control");
@@ -140,15 +140,12 @@ function renderCart() {
     const increaseButton = document.createElement("button");
     increaseButton.textContent = "+";
     increaseButton.addEventListener("click", () => updateQuantity(index, cartItem.quantity + 1));
-
     quantityControl.appendChild(decreaseButton);
     quantityControl.appendChild(quantityDisplay);
     quantityControl.appendChild(increaseButton);
-
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
     removeButton.addEventListener("click", () => removeFromCart(index));
-
     cartItemDiv.appendChild(itemName);
     cartItemDiv.appendChild(itemPrice);
     cartItemDiv.appendChild(quantityControl);
