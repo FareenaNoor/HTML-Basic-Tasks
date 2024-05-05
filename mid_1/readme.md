@@ -2,9 +2,9 @@
 
 ## Date 1-4-2024, Section A
 
-Student Name : -------------------
+Student Name : Fareena Noor
 
-Student CMS : -------------------
+Student CMS : 021-21-0047
 
 ## Display a list of products on the webpage 📜
 
