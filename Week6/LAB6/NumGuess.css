@@ -1,0 +1,13 @@
+body {
+    background-image: url('guess.jpg');
+    background-repeat: no-repeat;
+   
+}
+div{
+    justify-content: center;
+    display: flex;
+    color: rgb(127, 218, 127);
+}
+h1{
+    color: rgb(127, 218, 127);
+}

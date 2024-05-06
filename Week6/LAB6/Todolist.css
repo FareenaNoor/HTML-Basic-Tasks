@@ -1,0 +1,28 @@
+#list {
+    height: auto;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(248, 218, 173);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(248, 234, 214);
+}
+
+.remove {
+    background-color: rgb(250, 224, 188);
+}
