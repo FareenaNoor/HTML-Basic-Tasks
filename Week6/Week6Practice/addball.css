@@ -1,0 +1,14 @@
+#container{
+    height: auto;
+    width: 1000px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(221, 175, 115);
+    border-radius: 50%;
+}
