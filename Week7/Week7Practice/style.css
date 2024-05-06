@@ -1,0 +1,17 @@
+#textarea{
+    background-color: blueviolet;
+    height: 5pc;
+    width: 100%;
+}
+.textarea{
+    background-color: blueviolet;
+    height: 5pc;
+    width: 100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: aqua;
+}
