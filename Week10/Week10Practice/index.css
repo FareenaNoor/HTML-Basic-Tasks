@@ -1,0 +1,25 @@
+#container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.user img {
+    width: 100px;
+}
+.user img:hover{
+    scale: 105%;
+}
+.user {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(203, 221, 184);
+    text-align: center;
+}
+
+.user:hover {
+    background-color: rgb(187, 215, 157);
+    font-weight: bold;
+}
